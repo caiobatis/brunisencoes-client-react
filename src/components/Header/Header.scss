@@ -4,7 +4,7 @@
   position: relative;
   &:before {
     content: '';
-    background: #232c4b;
+    background: #423719;
     opacity: .77;
     display: block;
     position: absolute;
@@ -32,7 +32,7 @@
             text-decoration: none;
             border-radius: 5px;
             &:hover {
-              background: #172141;
+              background: #8b7a4b;
             }
           }
         }
@@ -43,7 +43,7 @@
     }
   }
   .fixed {
-    background: #232c4b;
+    background: #8b7a4b;
   }
   .brand {
     display: flex;
@@ -108,8 +108,8 @@
         a {
           display: block;
           padding: 15px;
-          color: #172141;
-          border-left: #232c4b solid 0px;
+          color: #8b7a4b;
+          border-left: #8b7a4b solid 0px;
           border-bottom: 1px solid rgb(233, 235, 238);
           text-transform: uppercase;
           font-size: 14px;
