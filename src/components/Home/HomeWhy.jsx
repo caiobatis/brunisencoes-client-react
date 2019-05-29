@@ -8,7 +8,7 @@ const HomeWhy = props => {
   <section className={styles.why}>
     <div className="container">
       <div className="text-center">
-        <h2 className={styles.h2}>Porque escolher a Free Isenções?</h2>
+        <h2 className={styles.h2}>Porque escolher a Brun Isenções?</h2>
       </div>
     </div>
     <div className={styles.icons}>

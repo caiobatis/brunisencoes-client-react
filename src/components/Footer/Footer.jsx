@@ -17,7 +17,7 @@ const Footer = props => {
           <div className="col-md-3">
             <ul className={styles.list}>
               <li><p className={styles.p}>COMPRE POR E-MAIL</p></li>
-              <li><>atendimento@freeisencoes.com.br</></li>
+              <li><>atendimento@brunisencoes.com.br</></li>
               <li><p className={styles.p}>COMPRE POR TELEFONE</p></li>
               <li><>(13) 3222-3722</></li>
             </ul>
@@ -42,12 +42,12 @@ const Footer = props => {
             <div className="text-right">
               <ul className={styles.socials}>
                 <li>
-                  <a href="https://www.facebook.com/freeisencoessantos/" rel="noopener noreferrer" target="_blank">
+                  <a href="https://www.facebook.com/brunisencoessantos/" rel="noopener noreferrer" target="_blank">
                     <i className="fab fa-facebook-f"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/freeisencoes/" rel="noopener noreferrer" target="_blank">
+                  <a href="https://www.instagram.com/brunisencoes/" rel="noopener noreferrer" target="_blank">
                     <i className="fab fa-instagram"></i>
                   </a>
                 </li>

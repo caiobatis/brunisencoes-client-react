@@ -36,7 +36,7 @@ const HomeChallenger = props => {
               <Slider {...settings}>
                 <div className={styles.item}>
                   <div className={styles.image}>
-                    <img src="http://www.freeisencoes.com.br/images/4.jpg" alt=""/>
+                    <img src="http://www.brunisencoes.com.br/images/4.jpg" alt=""/>
                   </div>
                   <div className={styles.text}>
                     <h4 className={styles.h4}>Juliana dos Santos</h4>
@@ -45,7 +45,7 @@ const HomeChallenger = props => {
                 </div>
                 <div className={styles.item}>
                   <div className={styles.image}>
-                    <img src="http://www.freeisencoes.com.br/images/6.jpg" alt=""/>
+                    <img src="http://www.brunisencoes.com.br/images/6.jpg" alt=""/>
                   </div>
                   <div className={styles.text}>
                     <h4 className={styles.h4}>Juliana dos Santos</h4>

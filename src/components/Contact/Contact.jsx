@@ -43,7 +43,7 @@ class Contact extends Component {
                   (13) 98852.5405 <br/><br/>
                   (13) 99654.5993
                 </p>
-                <p className={styles.p}><b>atendimento@freeisencoes.com.br</b></p>
+                <p className={styles.p}><b>atendimento@brunisencoes.com.br</b></p>
               </div>
             </div>
             <div className="col-md-5">

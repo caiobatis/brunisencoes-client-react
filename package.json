@@ -1,5 +1,5 @@
 {
-  "name": "freeisencoes-client-react",
+  "name": "brunisencoes-client-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -121,10 +121,6 @@
       "web.jsx",
       "jsx",
       "node"
-    ],
-    "watchPlugins": [
-      "/Users/caiobatistalab/dev/freeisencoes-client-react/node_modules/jest-watch-typeahead/filename.js",
-      "/Users/caiobatistalab/dev/freeisencoes-client-react/node_modules/jest-watch-typeahead/testname.js"
     ]
   },
   "babel": {
