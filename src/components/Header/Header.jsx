@@ -48,14 +48,14 @@ class Header extends Component {
             <div className={navclass} style={style}>
               <div className="container">
                 <div className="row">
-                <div className="col-md-12">
+                <div className="col-md-1">
                   <div className={styles.buttonBurguer} onClick={this.toggleDrawer('left', true)}>
                     <i></i>
                     <i></i>
                     <i></i>
                   </div>
                 </div>
-                  <div className="col-md-6">
+                  <div className="col-md-5">
                     <div className={styles.brand}>
                       <Logo
                         type={'white'}

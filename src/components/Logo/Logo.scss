@@ -6,13 +6,13 @@
     background: url('../../images/sprite.png');
     background-position: 0px 0px;
     width: 157px;
-    height: 70px;
+    height: 81px;
     font-size: 0;
   }
   &.secundary {
     .logo {
       background: url('../../images/sprite.png');
-      background-position: 0px -73px;
+      background-position: -172px 0px;
     }
   }
 }
