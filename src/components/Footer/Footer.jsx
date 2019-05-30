@@ -16,18 +16,17 @@ const Footer = props => {
           </div>
           <div className="col-md-3">
             <ul className={styles.list}>
-              <li><p className={styles.p}>COMPRE POR E-MAIL</p></li>
-              <li><>atendimento@brunisencoes.com.br</></li>
-              <li><p className={styles.p}>COMPRE POR TELEFONE</p></li>
-              <li><>(13) 3222-3722</></li>
+              <li><p className={styles.p}>Fale Conosco POR E-MAIL</p></li>
+              <li><>contato@brunisencoes.com.br</></li>
+              <li><p className={styles.p}>Fale Conosco POR TELEFONE</p></li>
+              <li><>(13) 3222-1872</></li>
             </ul>
           </div>
           <div className="col-md-3">
             <ul className={styles.list}>
-              <li><p className={styles.p}>Compre por Whatsapp</p></li>
+              <li><p className={styles.p}>Fale Conosco por Whatsapp</p></li>
               <li><>(13) 95538.0601</></li>
               <li><>(13) 98852.5405</></li>
-              <li><>(13) 99654.5993</></li>
             </ul>
           </div>
           <div className="col-md-3">
@@ -42,12 +41,12 @@ const Footer = props => {
             <div className="text-right">
               <ul className={styles.socials}>
                 <li>
-                  <a href="https://www.facebook.com/brunisencoessantos/" rel="noopener noreferrer" target="_blank">
+                  <a href="https://www.facebook.com/isencoes.brun/" rel="noopener noreferrer" target="_blank">
                     <i className="fab fa-facebook-f"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/brunisencoes/" rel="noopener noreferrer" target="_blank">
+                  <a href="https://www.instagram.com/isencoes.brun/" rel="noopener noreferrer" target="_blank">
                     <i className="fab fa-instagram"></i>
                   </a>
                 </li>

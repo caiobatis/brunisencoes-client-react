@@ -32,7 +32,7 @@
         align-items: center;
         justify-content: center;
         border-radius: 4px;
-        background: #947a4d;
+        background: #937a46;
         font-size: 40px;
         color: #fff;
       }
@@ -93,10 +93,11 @@
         font-size: 16px;
         text-transform: uppercase;
         font-weight: 600;
+        text-align: center;
       }
     }
     .description {
-      text-align: center;
+      // text-align: center;
       .span {
         font-size: 14px;
         color: rgb(128, 134, 138);
@@ -129,10 +130,24 @@
     @media(max-width:768px) {
       flex-direction: column;
     }
-    .icon {
+    .iconfacebook {
       width: 70px;
       height: 70px;
-      background: #b1b1b1;
+      background: #4267b2;
+      border-radius: 70px;
+      margin: 5px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      a {
+        color: #fff;
+      }
+    }
+    .iconinstagram {
+      width: 70px;
+      height: 70px;
+      background: #000;
       border-radius: 70px;
       margin: 5px 20px;
       display: flex;
@@ -167,7 +182,7 @@
 }
 
 .whoItems {
-  background: #8b7a4b;
+  background: #937a46;
   .list {
     display: flex;
     margin: 0;
@@ -215,12 +230,12 @@
       }
       &:nth-child(3) {
         .icon {
-          background-position: -200px -140px;
+          background-position: -133px -140px;
         }
       }
       &:nth-child(4) {
         .icon {
-          background-position: -133px -140px;
+          background-position: -200px -140px;
         }
       }
       .p {
@@ -376,7 +391,7 @@
   padding: 3em 0;
   background: #eee;
   .h2 {
-    color: #705d27;
+    color: #937a46;
     font-weight: 200;
     margin-bottom: 1em;
     text-transform: uppercase;
@@ -387,11 +402,11 @@
   }
   .text {
     .p {
-      color: #705c24;
+      color: #937a46;
       font-size: 20px;
     }
     i {
-      color: #8b7a4b;
+      color: #937a46;
       font-size: 16px;
       line-height: 16px;
     }
@@ -441,7 +456,7 @@
         margin-bottom: 1em;
         .brand {
           text-transform: uppercase;
-          color: #4460bf;
+          color: #937a46;
           font-weight: 600;
         }
       }

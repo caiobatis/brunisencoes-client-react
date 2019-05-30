@@ -13,7 +13,7 @@ const Link = props => {
 
   let content
 
-  (props.to) ?
+  (props.target) ?
     content = 
     <LinkRouter
       to={props.to}
@@ -25,6 +25,7 @@ const Link = props => {
     <a
       href={props.to}
       className={buttonClass}
+      target={props.target}
     >
       {props.children}
     </a>

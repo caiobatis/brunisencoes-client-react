@@ -6,7 +6,7 @@
   outline: none !important;
 
   &.primary {
-    background-color: #000;
+    background-color: #937a46;
     border-radius: 40px;
     height: 40px;
     
@@ -17,10 +17,10 @@
     }
     &.border {
       span {
-        color: #415cb8;
+        color: #937a46;
       }
       background: transparent;
-      border: 2px solid #415cb8 ;
+      border: 2px solid #937a46 ;
     }
   }
   &.secundary {
@@ -31,7 +31,7 @@
     padding-right: 40px;
     font-weight: 200;
     span {
-      color: #0be1a2;
+      color: #000;
       font-size: 17px;
     }
     &.uppercase {
@@ -52,9 +52,31 @@
       font-weight: 600;
     }
   }
-  &.border {
-    background: transparent;
-    border: 2px solid #0be1a2;
+  &.third {
+    background-color: transparent;
+    border-radius: 4px;
+    height: 65px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 200;
+    transition: all .3s ease;
+    span {
+      color: #937a46;
+      font-size: 17px;
+    }
+    &.uppercase {
+      text-transform: uppercase;
+    }
+    &.border {
+      background-color: transparent;
+      border: 2px solid #937a46;
+    }
+    &:hover {
+      background-color: #937a46;
+      span {
+        color: #fff;
+      }
+    }
   }
 }
 

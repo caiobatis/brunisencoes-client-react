@@ -35,15 +35,14 @@ class Contact extends Component {
                   Av. Senador Feijó, 686 - cj. 615 <br/>
                   The Blue Office Mall <br/><br/>
                   Santos, São Paulo <br/><br/>
-                  CEP:11015-504
+                  CEP: 11015-504
                 </p>
                 <p className={styles.p}>
-                  (13) 3222.3722 <br/><br/>
-                  (13) 95538.0601 <br/><br/>
-                  (13) 98852.5405 <br/><br/>
-                  (13) 99654.5993
+                  <i className="fa fa-phone"></i> (13) 3222.1872 <br/><br/>
+                  <i className="fab fa-whatsapp"></i> (13) 95538.0601 <br/><br/>
+                  <i className="fab fa-whatsapp"></i> (13) 98852.5405
                 </p>
-                <p className={styles.p}><b>atendimento@brunisencoes.com.br</b></p>
+                <p className={styles.p}><b>contato@brunisencoes.com.br</b></p>
               </div>
             </div>
             <div className="col-md-5">

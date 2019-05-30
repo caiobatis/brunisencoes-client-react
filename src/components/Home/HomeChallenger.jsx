@@ -29,7 +29,7 @@ const HomeChallenger = props => {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <h2 className={styles.h2}>Isenções Conquistadas</h2>
+            <h2 className={styles.h2}>Conquistas</h2>
           </div>
           <div className="col-md-12">
             <div className={styles.challengerList}>
@@ -70,8 +70,6 @@ const HomeChallenger = props => {
             </div>
           </div>
         </div>
-        
-
       </div>
     </section>
   )
