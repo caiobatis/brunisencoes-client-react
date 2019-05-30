@@ -18,7 +18,7 @@ const HomeWhy = props => {
           <div className="col-md-2">
             <CardWithIcon >
               <div className={styles.icon}>
-                <i className="far fa-thumbs-up"></i>
+                <i className="far"></i>
               </div>
               <div className={styles.title}>
                 <h4 className={styles.h4}>Confiança e Credibilidade</h4>
@@ -31,7 +31,7 @@ const HomeWhy = props => {
           <div className="col-md-2">
             <CardWithIcon >
               <div className={styles.icon}>
-                <i className="far fa-thumbs-up"></i>
+                <i className="far"></i>
               </div>
               <div className={styles.title}>
                 <h4 className={styles.h4}>Assessoria Completa</h4>
@@ -44,7 +44,7 @@ const HomeWhy = props => {
           <div className="col-md-2">
             <CardWithIcon >
               <div className={styles.icon}>
-                <i className="far fa-thumbs-up"></i>
+                <i className="far"></i>
               </div>
               <div className={styles.title}>
                 <h4 className={styles.h4}>Avaliação Gratuita</h4>
@@ -57,7 +57,7 @@ const HomeWhy = props => {
           <div className="col-md-2">
             <CardWithIcon >
               <div className={styles.icon}>
-                <i className="far fa-thumbs-up"></i>
+                <i className="far"></i>
               </div>
               <div className={styles.title}>
                 <h4 className={styles.h4}>Alto índice de aprovação</h4>
