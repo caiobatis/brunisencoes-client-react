@@ -140,7 +140,7 @@ class Routes extends Component {
                 <div className="col-md-7">
                   <h2 className={styles.h2}>Quem somos</h2>
                   <div className={styles.text}>
-                    <i>A Brun Isenções é uma empresa de Santos, especializada no processo de isenções que conta com uma equipe de atendimento qualificada e empenhada em garantir que os direitos de seus clientes sejam exercidos de acordo com a legislação brasileira.</i> <br/> <br/>
+                    <i>A Brün Isenções é uma empresa de Santos, especializada no processo de isenções que conta com uma equipe de atendimento qualificada e empenhada em garantir que os direitos de seus clientes sejam exercidos de acordo com a legislação brasileira.</i> <br/> <br/>
                     <p className={styles.p}>
                       <b>Nossa missão</b> é proporcionar um atendimento eficiente e eficaz a nossos clientes, garantindo sua satisfação acerca de nossos serviços. <br/> <br/>
                       <b>Nossa visão</b> é ser referência no mercado de assessoria ao público PCD acerca de isenção. <br/> <br/>
@@ -156,7 +156,7 @@ class Routes extends Component {
           <section className={styles.socials}>
             <div className="container">
               <div className="text-center">
-                <h2 className={styles.h2}>Acompanhe as novidades da Brun Isenções nas midias sociais</h2>
+                <h2 className={styles.h2}>Acompanhe as novidades da Brün Isenções nas midias sociais</h2>
               </div>
             </div>
             <div className="container">

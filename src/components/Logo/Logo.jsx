@@ -15,7 +15,7 @@ const Logo = props => {
       className={_class}
     >
       <div className={styles.logo}>
-        Brun Isenções
+        Brün Isenções
       </div>
     </Link>
   )
