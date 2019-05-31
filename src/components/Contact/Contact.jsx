@@ -27,24 +27,12 @@ class Contact extends Component {
               <h2 className={styles.h2}>Contato</h2>
               <p className={styles.title}>Aguardamos o seu contato por qualquer que seja o canal</p>
             </div>
-            <div className="col-md-1"></div>
-            <div className="col-md-5">
-              <br/>
-              <div className={styles.uppercase}>
-                <p className={styles.p}>
-                  Av. Senador Feijó, 686 - cj. 615 <br/>
-                  The Blue Office Mall <br/><br/>
-                  Santos, São Paulo <br/><br/>
-                  CEP: 11015-504
-                </p>
-                <p className={styles.p}>
-                  <i className="fa fa-phone"></i> (13) 3222.1872 <br/><br/>
-                  <i className="fab fa-whatsapp"></i> (13) 95538.0601 <br/><br/>
-                  <i className="fab fa-whatsapp"></i> (13) 98852.5405
-                </p>
-                <p className={styles.p}><b>contato@brunisencoes.com.br</b></p>
-              </div>
+            <div className="col-md-6">
+              <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.234608717478!2d-46.32996308476481!3d-23.952142682024785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce03745d931789%3A0xe39d01e5e54271ad!2sAv.+Senador+Feij%C3%B3%2C+686+-+Encruzilhada%2C+Santos+-+SP%2C+11050-220!5e0!3m2!1sen!2sbr!4v1559266884654!5m2!1sen!2sbr"
+              width="100%" height="450" frameborder="0" allowfullscreen></iframe>
             </div>
+            <div className="col-md-1"></div>
             <div className="col-md-5">
               <div className="form">
                 <br/>
@@ -54,7 +42,6 @@ class Contact extends Component {
                 <ContactForm onSubmit={this.submit} />
               </div>
             </div>
-            <div className="col-md-1"></div>
           </div>
         </div>
       </section>
