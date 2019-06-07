@@ -29,7 +29,7 @@ class HomeRight extends Component {
           <div className={styles.container}>
           <div
             className={styles.close}
-            onClick={()=>this.toggleModal(false)}
+            onClick={() => this.toggleModal(false)}
           >
             <i className="fa fa-times"></i>
           </div>
@@ -90,11 +90,11 @@ class HomeRight extends Component {
                   <li>Triplegia</li>
                 </ul>
               </div>
-              <h3 onClick={()=>this.toggleModal(false)}>fechar</h3>
+              <h3 onClick={() => this.toggleModal(false)}>fechar</h3>
             </div>
           </div>
         </div>
-        <section className={styles.whoTitle}>
+        <section id="howcan" className={styles.whoTitle}>
           <div className="container">
             <h2 className={styles.h2}>Quem tem Direito?</h2>
           </div>
@@ -126,7 +126,7 @@ class HomeRight extends Component {
                 <div className="text-center">
                   <button
                     className={styles.buttonModal}
-                    onClick={()=>this.toggleModal(true)}
+                    onClick={() => this.toggleModal(true)}
                   >
                     Ver todas as patologias
                   </button>

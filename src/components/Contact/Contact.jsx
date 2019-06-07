@@ -20,7 +20,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <section className={styles.contact}>
+      <section id="contact" className={styles.contact}>
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">

@@ -14,6 +14,36 @@ import Contact from '../Contact/Contact'
 
 import styles from './Home.scss'
 
+import Car1 from '../../images/CAR_1.png';
+import Car2 from '../../images/CAR_2.png';
+import Car3 from '../../images/CAR_3.png';
+import Car4 from '../../images/CAR_4.png';
+import Car5 from '../../images/CAR_5.png';
+import Car6 from '../../images/CAR_6.png';
+import Car7 from '../../images/CAR_7.png';
+import Car8 from '../../images/CAR_8.png';
+import Car9 from '../../images/CAR_9.png';
+import Car10 from '../../images/CAR_10.png';
+import Car11 from '../../images/CAR_11.png';
+import Car12 from '../../images/CAR_12.png';
+import Car13 from '../../images/CAR_13.png';
+import Car14 from '../../images/CAR_14.png';
+import Car15 from '../../images/CAR_15.png';
+import Car16 from '../../images/CAR_16.png';
+import Car17 from '../../images/CAR_17.png';
+import Car18 from '../../images/CAR_18.png';
+import Car19 from '../../images/CAR_19.png';
+import Car20 from '../../images/CAR_20.png';
+import Car21 from '../../images/CAR_21.png';
+import Car22 from '../../images/CAR_22.png';
+import Car23 from '../../images/CAR_23.png';
+import Car24 from '../../images/CAR_24.png';
+import Car25 from '../../images/CAR_25.png';
+import Car26 from '../../images/CAR_26.png';
+import Car27 from '../../images/CAR_27.png';
+import Car28 from '../../images/CAR_28.png';
+import Car29 from '../../images/CAR_29.png';
+
 
 class Routes extends Component {
   render() {
@@ -41,81 +71,177 @@ class Routes extends Component {
     const vehicles = [
       {
         id: 1,
-        image: 'https://img2.static.reweb.io/tiny/0/0/dealers.rewebmkt.com/images/20181129041042-miniatura-creta.png',
-        brand: 'Hyundai',
-        model: 'Creta'
+        image: Car1,
+        brand: 'Nissan',
+        model: 'March'
       },
       {
-        id: 1,
-        image: 'https://production.autoforce.com/uploads/version/profile_image/2576/model_main_comprar-1-6-s-mt5_f20a97d6b6.png',
+        id: 2,
+        image: Car2,
+        brand: 'Nissan',
+        model: 'Versa'
+      },
+      {
+        id: 3,
+        image: Car3,
         brand: 'Nissan',
         model: 'Kicks'
       },
       {
-        id: 1,
-        image: 'https://production.autoforce.com/uploads/version/profile_image/3053/model_main_comprar-1-8-at-flex_6264ed281f.png',
-        brand: 'Jeep',
-        model: 'Renegade'
+        id: 4,
+        image: Car4,
+        brand: 'Citrôen',
+        model: 'C3'
       },
       {
-        id: 1,
-        image: 'https://www.chevroletnova.com.br/Upload/CorReferente_16112017084454.png',
-        brand: 'Renault',
-        model: 'Captur'
+        id: 5,
+        image: Car5,
+        brand: 'Citrôen',
+        model: 'Air Cross'
       },
       {
-        id: 1,
-        image: 'https://www.chevroletnova.com.br/Upload/CorReferente_16112017084454.png',
+        id: 6,
+        image: Car6,
         brand: 'Citrôen',
         model: 'C4 Cactus'
       },
       {
-        id: 1,
-        image: 'https://www.chevroletnova.com.br/Upload/CorReferente_16112017084454.png',
-        brand: 'GM/Chevrolet',
-        model: 'Spin'
+        id: 7,
+        image: Car7,
+        brand: 'Renault',
+        model: 'Duster'
       },
       {
-        id: 1,
-        image: 'https://www.chevroletnova.com.br/Upload/CorReferente_16112017084454.png',
-        brand: 'Volkswagem',
-        model: 'Virtus'
+        id: 8,
+        image: Car8,
+        brand: 'Renault',
+        model: 'Captur'
       },
       {
-        id: 1,
-        image: 'https://catalogo.webmotors.com.br/imagens/prod/347716/TOYOTA_YARIS_1.3_16V_FLEX_XL_MANUAL_3477160825488953.png?s=fill&w=440&h=330&q=80&t=true',
+        id: 9,
+        image: Car9,
+        brand: 'Jeep',
+        model: 'Renegade'
+      },
+      {
+        id: 10,
+        image: Car10,
+        brand: 'Toyota',
+        model: 'Ethios'
+      },
+      {
+        id: 11,
+        image: Car11,
         brand: 'Toyota',
         model: 'Yaris'
       },
       {
-        id: 1,
-        image: 'https://carros2019.com.br/wp-content/uploads/2018/01/lx_honda_sensing_10456_crystal_black_pearl_front.png',
+        id: 12,
+        image: Car12,
+        brand: 'Honda',
+        model: 'City'
+      },
+      {
+        id: 13,
+        image: Car13,
         brand: 'Honda',
         model: 'Fit'
       },
       {
-        id: 1,
-        image: 'https://www.chevroletnova.com.br/Upload/CorReferente_16112017084454.png',
-        brand: 'Pegeout',
-        model: 'Allure 2008'
+        id: 14,
+        image: Car14,
+        brand: 'Ford',
+        model: 'Ka'
       },
       {
-        id: 1,
-        image: 'https://catalogo.webmotors.com.br/imagens/prod/347716/TOYOTA_YARIS_1.3_16V_FLEX_XL_MANUAL_3477160825488953.png?s=fill&w=440&h=330&q=80&t=true',
+        id: 15,
+        image: Car15,
         brand: 'Ford',
         model: 'Eco Sport'
       },
       {
-        id: 1,
-        image: 'https://carros2019.com.br/wp-content/uploads/2018/01/lx_honda_sensing_10456_crystal_black_pearl_front.png',
+        id: 16,
+        image: Car16,
+        brand: 'GM/Chevrolet',
+        model: 'Ônix'
+      },
+      {
+        id: 17,
+        image: Car17,
+        brand: 'GM/Chevrolet',
+        model: 'Spin'
+      },
+      {
+        id: 18,
+        image: Car18,
+        brand: 'GM/Chevrolet',
+        model: 'Cobalt'
+      },
+      {
+        id: 19,
+        image: Car19,
+        brand: 'GM/Chevrolet',
+        model: 'Prisma'
+      },
+      {
+        id: 20,
+        image: Car20,
+        brand: 'Volkswagem',
+        model: 'Virtus'
+      },
+      {
+        id: 21,
+        image: Car21,
+        brand: 'Volkswagem',
+        model: 'Polo'
+      },
+      {
+        id: 22,
+        image: Car22,
+        brand: 'Fiat',
+        model: 'Argo'
+      },
+      {
+        id: 23,
+        image: Car23,
+        brand: 'Fiat',
+        model: 'Cronos'
+      },
+      {
+        id: 24,
+        image: Car24,
+        brand: 'Fiat',
+        model: 'Mobi'
+      },
+      {
+        id: 25,
+        image: Car25,
+        brand: 'Pegeout',
+        model: 'Allure 2008'
+      },
+      {
+        id: 26,
+        image: Car26,
+        brand: 'Pegeout',
+        model: '208'
+      },
+      {
+        id: 27,
+        image: Car27,
         brand: 'Cherry',
         model: 'Tiggo 2'
       },
       {
-        id: 1,
-        image: 'https://carros2019.com.br/wp-content/uploads/2018/01/lx_honda_sensing_10456_crystal_black_pearl_front.png',
-        brand: 'Fiat',
-        model: 'Cronos'
+        id: 28,
+        image: Car28,
+        brand: 'Hyundai',
+        model: 'Creta'
+      },
+      {
+        id: 29,
+        image: Car29,
+        brand: 'Hyundai',
+        model: 'HB20'
       }
     ]
 
@@ -126,8 +252,8 @@ class Routes extends Component {
           <HomeWhy/>
           <HomeServices/>
           <HomeRight/>
-          <HomeChallenger/>
-          <section className={styles.aboutUs}>
+          {/*<HomeChallenger/>*/}
+          <section id="about" className={styles.aboutUs}>
             <div className="container">
               <div className="row">
                 <div className="col-md-5">
@@ -140,13 +266,12 @@ class Routes extends Component {
                 <div className="col-md-7">
                   <h2 className={styles.h2}>Quem somos</h2>
                   <div className={styles.text}>
-                    <i>A Brün Isenções é uma empresa de Santos, especializada no processo de isenções que conta com uma equipe de atendimento qualificada e empenhada em garantir que os direitos de seus clientes sejam exercidos de acordo com a legislação brasileira.</i> <br/> <br/>
+                    <i>A BRÜN Isenções é uma empresa de Santos, especializada no processo de isenções que conta com uma equipe de atendimento qualificada e empenhada em garantir que os direitos de seus clientes sejam exercidos de acordo com a legislação brasileira.</i> <br/> <br/>
                     <p className={styles.p}>
                       <b>Nossa missão</b> é proporcionar um atendimento eficiente e eficaz a nossos clientes, garantindo sua satisfação acerca de nossos serviços. <br/> <br/>
                       <b>Nossa visão</b> é ser referência no mercado de assessoria ao público PCD acerca de isenção. <br/> <br/>
                       Buscamos proporcionar a <b>facilidade e agilidade</b> a nossos clientes acerca da burocracia que envolve esse tipo de processo. <br/> <br/>
                       O respeito e exercício de nossos direitos como cidadãos é a nossa preocupação! <br/><br/>
-                      <strong>Você tem o direito e a Free, isenções.</strong>
                     </p>
                   </div>
                 </div>
@@ -156,7 +281,7 @@ class Routes extends Component {
           <section className={styles.socials}>
             <div className="container">
               <div className="text-center">
-                <h2 className={styles.h2}>Acompanhe as novidades da Brün Isenções nas midias sociais</h2>
+                <h2 className={styles.h2}>Acompanhe as novidades da BRÜN Isenções nas midias sociais</h2>
               </div>
             </div>
             <div className="container">
@@ -179,7 +304,7 @@ class Routes extends Component {
               </div>
             </div>
           </section>
-          <section className={styles.vehicles}>
+          <section id="vehicles" className={styles.vehicles}>
             <div className="container">
               <div className="row">
                 <div className="col-md-12">
@@ -189,7 +314,7 @@ class Routes extends Component {
                   <div className={styles.items}>
                     <Slider {...settings}>
                       {
-                        vehicles.map((item, i)=> (
+                        vehicles.map((item, i) => (
                           <div className={styles.item} key={i}>
                             <div className={styles.image}>
                               <img src={item.image} alt=""/>

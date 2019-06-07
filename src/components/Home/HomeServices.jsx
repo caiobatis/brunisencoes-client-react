@@ -5,7 +5,7 @@ import styles from './Home.scss'
 const HomeServices = props => {
   
   return (
-    <section className={styles.services}>
+    <section id="services" className={styles.services}>
       <div className="container">
         <div className="row">
           <div className="col-md-12">

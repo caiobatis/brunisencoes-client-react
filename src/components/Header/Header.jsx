@@ -28,11 +28,11 @@ class Header extends Component {
     const menu = (
       <nav className={styles.menu}>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/">Sobre</Link></li>
-          <li><Link to="/">Serviços</Link></li>
-          <li><Link to="/">Dúvidas</Link></li>
-          <li><Link to="/">Contato</Link></li>
+          <li><Link to="#">Home</Link></li>
+          <li><Link to="#services">Serviços</Link></li>
+          <li><Link to="#howcan">Quem tem direito?</Link></li>
+          <li><Link to="#about">Sobre</Link></li>
+          <li><Link to="#contact">Contato</Link></li>
         </ul>
       </nav>
     )
