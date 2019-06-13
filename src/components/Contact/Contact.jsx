@@ -24,6 +24,11 @@ class Contact extends Component {
   }
 
   render() {
+
+    const {
+      contact
+    } = this.props
+
     return (
       <section id="contact" className={styles.contact}>
         <div className="container">
@@ -44,7 +49,12 @@ class Contact extends Component {
                 <div className="text-center">
                   <p className={styles.p}><b>Escreva para nós que <br/> responderemos logo em seguida</b></p>
                 </div>
-                <ContactForm onSubmit={this.submit} />
+                <ContactForm
+                  onSubmit={this.submit}
+                  loading={contact.loading}
+                  success={contact.success}
+                  error={contact.error}
+                />
               </div>
             </div>
           </div>
@@ -56,7 +66,8 @@ class Contact extends Component {
 
 
 const mapStateToProps = state => ({
-  ...state
+  ...state,
+  contact: state.contactReducer
 })
 
 const mapDispatchToProps = dispatch => bindActionCreators({

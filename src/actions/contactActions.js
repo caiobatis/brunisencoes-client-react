@@ -1,29 +1,31 @@
 import { postContact } from "../lib/api"
 
-export const startAction = {
-  type: "rotate",
-  payload: true
-};
+export const receiveSuccessContact = () => ({
+  type: "RECEIVE_SUCCESS_CONTACT",
+})
+
+export const receiveErrorContact = () => ({
+  type: "RECEIVE_ERROR_CONTACT",
+})
+
+export const fetchContact = data => ({
+  type: "FETCH_CONTACT",
+  payload: data
+})
 
 export const sendContact = values => {
   return dispatch => {
+
+    dispatch(fetchContact(true))
+    
     postContact(values)
       .then(res => {
-        console.log(res)
+        dispatch(fetchContact(false))
+        dispatch(receiveSuccessContact())
       })
       .catch(res => {
-        console.log(res)
+        dispatch(fetchContact(false))
+        dispatch(receiveErrorContact())
       })
   }
 }
-// export const getCoins = city => {
-//   return dispatch => {
-//     dispatch(fetchCoins(true))
-//     getProducts(city)
-//     .then((res)=> {
-//       dispatch(fetchCoins(false))
-//       dispatch(receiveCoins(serializeCoins(res.data)))
-//     })
-//     .catch(()=> dispatch(fetchCoins(false)))
-//   }
-// }

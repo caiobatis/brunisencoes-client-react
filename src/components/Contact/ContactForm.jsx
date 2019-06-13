@@ -4,7 +4,12 @@ import Buttons from '../Buttons/Buttons'
 import styles from './Contact.scss'
 
 let ContactForm = props => {
-  const { handleSubmit } = props
+  const { 
+    handleSubmit,
+    success,
+    error,
+    loading
+  } = props
 
   return (
     <form onSubmit={handleSubmit}>
@@ -24,6 +29,27 @@ let ContactForm = props => {
         <Field name="notes" component="textarea" />
         <label htmlFor="phone">Escreva o motivo do contato</label>
       </div>
+      {
+        loading && (
+          <div className={styles.textField}>
+            <label>carregando...</label>
+          </div>
+        )
+      }
+      {
+        error && (
+          <div className={styles.textField}>
+            <label>Aconteceu algo de errado, tente novamente</label>
+          </div>
+        )
+      }
+      {
+        success && (
+          <div className={styles.textField}>
+            <label>Sucesso, mensagem enviada ;)</label>
+          </div>
+        )
+      }
 
       <Buttons
         type='secundary'

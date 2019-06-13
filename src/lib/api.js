@@ -7,7 +7,6 @@ const api = axios.create({
 })
 
 export const postContact = values => {
-  console.log(values)
   return new Promise((resolve, reject) => 
     api.post(`/person/contact/site`, values)
       .then((res) => resolve(res))
