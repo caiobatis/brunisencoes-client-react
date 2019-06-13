@@ -46,6 +46,21 @@ import Car29 from '../../images/CAR_29.png';
 
 
 class Routes extends Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      vehicle: 0
+    }
+
+    this.handleSelectVehicle = this.handleSelectVehicle.bind(this)
+  }
+
+  handleSelectVehicle = car => {
+    this.setState({
+      vehicle: car
+    })
+  }
+
   render() {
 
     const settings = {
@@ -327,6 +342,9 @@ class Routes extends Component {
                               <Buttons
                                 label='Eu quero'
                                 type='primary'
+                                onClick={()=> {
+                                  this.handleSelectVehicle(item)
+                                }}
                               />
                             </div>
                           </div>
@@ -338,7 +356,7 @@ class Routes extends Component {
               </div>
             </div>
           </section>
-          <Contact/>
+          <Contact vehicle={this.state.vehicle}/>
           <Footer/>
         </StickyContainer>
       </div>

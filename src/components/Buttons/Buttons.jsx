@@ -15,7 +15,7 @@ const Buttons = props => {
   })
 
   const content = 
-    <button className={buttonClass} type="submit">
+    <button onClick={props.onClick} className={buttonClass} type="submit">
       <span>{props.label}</span>
     </button>
   return props.link ? <Link to={props.link}> {content} </Link> : content

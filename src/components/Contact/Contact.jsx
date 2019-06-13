@@ -15,6 +15,8 @@ class Contact extends Component {
   }
 
   submit = values => {
+
+    console.log(values)
     if(typeof(values['name']) == 'undefined' || typeof(values['email']) == 'undefined' || typeof(values['phone']) == 'undefined' || typeof(values['notes']) == 'undefined') {
       alert('Você deve preencher todos os campos!')
       return false
@@ -26,7 +28,8 @@ class Contact extends Component {
   render() {
 
     const {
-      contact
+      contact,
+      vehicle
     } = this.props
 
     return (
@@ -54,6 +57,7 @@ class Contact extends Component {
                   loading={contact.loading}
                   success={contact.success}
                   error={contact.error}
+                  vehicle={vehicle}
                 />
               </div>
             </div>

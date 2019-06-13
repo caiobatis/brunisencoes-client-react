@@ -1,5 +1,6 @@
 import React from 'react'
 import { Field, reduxForm } from 'redux-form'
+import { connect } from 'react-redux'
 import Buttons from '../Buttons/Buttons'
 import styles from './Contact.scss'
 
@@ -8,8 +9,10 @@ let ContactForm = props => {
     handleSubmit,
     success,
     error,
-    loading
+    loading,
+    vehicle = 'teste'
   } = props
+
 
   return (
     <form onSubmit={handleSubmit}>
@@ -24,6 +27,11 @@ let ContactForm = props => {
       <div className={styles.textField}>
         <Field name="phone" component="input" type="text" />
         <label htmlFor="phone">Telefone</label>
+      </div>
+      <div className={styles.textField}>
+        <Field name="vehicle" component="input" type="text" />
+        <label htmlFor="name">Veículo PCD</label>
+        <Field name="vehicleId" component="input" type="hidden" />
       </div>
       <div className={styles.textField}>
         <Field name="notes" component="textarea" />
@@ -62,8 +70,14 @@ let ContactForm = props => {
   )
 }
 
-ContactForm = reduxForm({
-  form: 'contact'
-})(ContactForm)
+const mapStateToProps = (state, props) => ({
+  initialValues: {
+    vehicle: props.vehicle ? `${props.vehicle.brand} ${props.vehicle.model}`: '',
+    vehicleId: props.vehicle ? props.vehicle.id : ''
+  }
+})
 
-export default ContactForm
+export default connect(mapStateToProps)(reduxForm({
+  form: 'contact',
+  enableReinitialize: true
+})(ContactForm))
