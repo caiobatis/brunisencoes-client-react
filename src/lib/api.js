@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseURL = ''
+const baseURL = 'http://186.226.56.5:1800'
 
 const api = axios.create({
   baseURL
@@ -9,7 +9,7 @@ const api = axios.create({
 export const postContact = values => {
   console.log(values)
   return new Promise((resolve, reject) => 
-    api.post(`/contact`, values)
+    api.post(`/person/contact/site`, values)
       .then((res) => resolve(res))
       .catch((res) => reject(res)))
 }
