@@ -15,6 +15,11 @@ class Contact extends Component {
   }
 
   submit = values => {
+    if(typeof(values['name']) == 'undefined' || typeof(values['email']) == 'undefined' || typeof(values['phone']) == 'undefined' || typeof(values['notes']) == 'undefined') {
+      alert('Você deve preencher todos os campos!')
+      return false
+    }
+
     this.props.sendContact(values)
   }
 
